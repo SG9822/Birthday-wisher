@@ -23,8 +23,6 @@ password = "{Your app password}"
 now = dt.datetime.now()
 date = now.day
 months = now.month
-time = now.time()
-print(time)
 
 if months in month and date in day:
     date_index = day.index(date)
