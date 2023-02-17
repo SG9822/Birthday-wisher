@@ -1,9 +1,3 @@
-# -------------------- EXTRA HARD PROJECT ---------------------- #
-
-# reader = csv.reader(data)
-# list_data = list(reader)
-# print(list_data)
-
 import pandas
 import smtplib
 import random
@@ -22,8 +16,9 @@ list_dir = os.listdir("letter_templates")
 with open(f"letter_templates/{random.choice(list_dir)}") as file:
     files = file.read()
 
-my_email = "sgkkr0598@gmail.com"
-password = "zkqpifzdxrsfsvla"
+# You have to go to privacy in your mail settings and look for your password
+my_email = "{Your mail}"
+password = "{Your app password}"
 
 now = dt.datetime.now()
 date = now.day
